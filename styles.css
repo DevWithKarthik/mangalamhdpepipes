@@ -879,9 +879,10 @@ td:first-child {
 }
 
 .f1 {
-    max-width: 700px;
+    /* max-width: 700px; */
     margin: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .f1 p:first-child {
@@ -1544,6 +1545,12 @@ td:first-child {
 
 }
 
+.app2>div:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 
 .appimg::before {
 
@@ -1824,6 +1831,14 @@ td:first-child {
 
     object-fit: cover;
 
+}
+
+.manufacturing-process .mp222 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, .08);
 }
 
 .navBtns {
